@@ -1,0 +1,196 @@
+INFO:     Started server process [12416]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:61515 - "POST /api/v1/analyze_video HTTP/1.1" 200 OK
+
+==============================
+Starting new task: 8f374e9a-d5be-460d-b674-5654cbf0eafd
+Start Time: 2025-03-18 09:09:51
+==============================
+
+audio transcription Ekta [{'text': 'Hello. This side Ekta Devatiya. I am from Palwal. I did my graduation from BSc in March, from Maharshi Dayanand University Rohtak, and then I did post-graduation from same university. Then I decide to do scaler master course, data science, machine learning course. This is my biodata. Here, I have a prom-'}]
+2025-03-18 09:10:48,433 - app.core.logging - INFO - Audio result Krishan: ([{'text': 'Hello. This side Ekta Devatiya. I am from Palwal. I did my graduation from BSc in March, from Maharshi Dayanand University Rohtak, and then I did post-graduation from same university. Then I decide to do scaler master course, data science, machine learning course. This is my biodata. Here, I have a prom-'}], 'C:\\Users\\ranvi\\AppData\\Local\\Temp\\tmpn153qdue.mp4')
+Summarised Transcription: Hello. This side Ekta Devatiya. I am from Palwal. I did my graduation from BSc in March, from Maharshi Dayanand University Rohtak, and then I did post-graduation from same university. Then I decide to do scaler master course, data science, machine learning course. This is my biodata. Here, I have a prom-
+Summary Ekta Devatiya from Palwal introduces herself. She has a BSc and post-graduate degree from Maharshi Dayanand University Rohtak.  She is currently pursuing a Scaler Master course in Data Science and Machine Learning. Her introduction is cut short at the end.
+
+2025-03-18 09:11:08,031 - app.core.logging - INFO - Extracted metadata:
+2025-03-18 09:11:08,032 - app.core.logging - INFO - {
+  "description": "The video consists of a series of nearly identical frames showing a young woman, Ekta Devatiya, from Palwal, India, delivering a brief self-introduction.  She is the central subject, wearing glasses and an orange polo shirt with a patterned scarf. The background is a plain, muted orange wall.  The mood is formal and somewhat impersonal, typical of a short introductory video.  The action consists solely of her speaking directly to the camera.  In the final frame, parts of two other individuals are visible in the lower corners of the shot, suggesting the presence of other people during the recording.\n\nImportant spoken words include: \"Ekta Devatiya,\" \"Palwal,\" \"BSc,\" \"post-graduate degree,\" \"Maharshi Dayanand University Rohtak,\" \"Scaler Master course,\" and \"Data Science and Machine Learning.\"",
+  "keywords": [
+    {
+      "keyword": "Ekta Devatiya",
+      "weight": 10
+    },
+    {
+      "keyword": "Palwal",
+      "weight": 5
+    },
+    {
+      "keyword": "India",
+      "weight": 5
+    },
+    {
+      "keyword": "BSc",
+      "weight": 5
+    },
+    {
+      "keyword": "post-graduate degree",
+      "weight": 5
+    },
+    {
+      "keyword": "Maharshi Dayanand University Rohtak",
+      "weight": 8
+    },
+    {
+      "keyword": "Scaler Master course",
+      "weight": 7
+    },
+    {
+      "keyword": "Data Science",
+      "weight": 7
+    },
+    {
+      "keyword": "Machine Learning",
+      "weight": 7
+    },
+    {
+      "keyword": "self-introduction",
+      "weight": 5
+    },
+    {
+      "keyword": "introductory video",
+      "weight": 5
+    }
+  ],
+  "topics": [
+    "Self-Introduction",
+    "Education",
+    "Data Science"
+  ],
+  "entities": [
+    "Ekta Devatiya",
+    "Palwal, India",
+    "Maharshi Dayanand University Rohtak",
+    "Scaler Master course",
+    "Data Science and Machine Learning"
+  ],
+  "actions": [
+    "Speaking",
+    "Self-introduction"
+  ],
+  "emotions": [
+    "Formal",
+    "Impersonal"
+  ],
+  "visual_elements": [
+    "Young woman",
+    "Glasses",
+    "Orange polo shirt",
+    "Patterned scarf",
+    "Orange wall",
+    "Nearly identical frames"
+  ],
+  "audio_elements": [
+    "Speech"
+  ],
+  "genre": "Educational",
+  "target_audience": [
+    "Potential employers",
+    "Colleagues",
+    "Networking contacts"
+  ],
+  "duration_estimate": "Short",
+  "quality_indicators": [],
+  "unique_identifiers": [],
+  "is_face_exist": true,
+  "person_identity": {
+    "name": "Ekta Devatiya",
+    "gender": "Female"
+  },
+  "other_person_identity": [],
+  "psychological_personality": [],
+  "no_of_person_in_video": 3,
+  "content_warnings": [],
+  "safety_analysis": [],
+  "is_safe": true
+}
+--- Gemini Raw Response ---
+{
+  "description": "The video consists of a series of nearly identical frames showing a young woman, Ekta Devatiya, from Palwal, India, delivering a brief self-introduction.  She is the central subject, wearing glasses and an orange polo shirt with a patterned scarf. The background is a plain, muted orange wall.  The mood is formal and somewhat impersonal, typical of a short introductory video.  The action consists solely of her speaking directly to the camera.  In the final frame, parts of two other individuals are visible in the lower corners of the shot, suggesting the presence of other people during the recording.\n\nImportant spoken words include: \"Ekta Devatiya,\" \"Palwal,\" \"BSc,\" \"post-graduate degree,\" \"Maharshi Dayanand University Rohtak,\" \"Scaler Master course,\" and \"Data Science and Machine Learning.\"",
+  "keywords": [
+    {"keyword": "Ekta Devatiya", "weight": 10},
+    {"keyword": "Palwal", "weight": 5},
+    {"keyword": "India", "weight": 5},
+    {"keyword": "BSc", "weight": 5},
+    {"keyword": "post-graduate degree", "weight": 5},
+    {"keyword": "Maharshi Dayanand University Rohtak", "weight": 8},
+    {"keyword": "Scaler Master course", "weight": 7},
+    {"keyword": "Data Science", "weight": 7},
+    {"keyword": "Machine Learning", "weight": 7},
+    {"keyword": "self-introduction", "weight": 5},
+    {"keyword": "introductory video", "weight": 5}
+  ],
+  "topics": [
+    "Self-Introduction",
+    "Education",
+    "Data Science"
+  ],
+  "entities": [
+    "Ekta Devatiya",
+    "Palwal, India",
+    "Maharshi Dayanand University Rohtak",
+    "Scaler Master course",
+    "Data Science and Machine Learning"
+  ],
+  "actions": [
+    "Speaking",
+    "Self-introduction"
+  ],
+  "emotions": [
+    "Formal",
+    "Impersonal"
+  ],
+  "visual_elements": [
+    "Young woman",
+    "Glasses",
+    "Orange polo shirt",
+    "Patterned scarf",
+    "Orange wall",
+    "Nearly identical frames"
+  ],
+  "audio_elements": [
+    "Speech"
+  ],
+  "genre": "Educational",
+  "target_audience": [
+    "Potential employers",
+    "Colleagues",
+    "Networking contacts"
+  ],
+  "duration_estimate": "Short",
+  "quality_indicators": [],
+  "unique_identifiers": [],
+  "is_face_exist": true,
+  "person_identity": {
+    "name": "Ekta Devatiya",
+    "gender": "Female"
+  },
+  "other_person_identity": [],
+  "psychological_personality": [],
+  "no_of_person_in_video": 3,
+  "content_warnings": [],
+  "safety_analysis": [],
+  "is_safe": true
+}
+
+==============================
+Task 8f374e9a-d5be-460d-b674-5654cbf0eafd completed
+Task Summary:
+Status: completed
+Total Duration: 76.66 seconds
+Steps Completed: 0
+Final Progress: 0%
+
+Step Durations:
+==============================

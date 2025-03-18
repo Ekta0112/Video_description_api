@@ -1,0 +1,1545 @@
+{
+  "7844254d-b495-4047-8d34-308f24f0e411": {
+    "start_time": "2025-03-17T00:24:11.137104",
+    "steps": {
+      "Starting parallel processing": {
+        "start_time": "2025-03-17T00:24:11.139103",
+        "progress": 0
+      },
+      "Starting video processing": {
+        "start_time": "2025-03-17T00:24:11.140102",
+        "progress": 5
+      },
+      "Saving video to temporary file": {
+        "start_time": "2025-03-17T00:24:11.142100",
+        "progress": 6
+      },
+      "Opening video file": {
+        "start_time": "2025-03-17T00:24:11.196262",
+        "progress": 7
+      },
+      "Calculating video parts": {
+        "start_time": "2025-03-17T00:24:12.507951",
+        "progress": 8
+      },
+      "Processing video part 1/1": {
+        "start_time": "2025-03-17T00:24:12.509893",
+        "progress": 8.0
+      },
+      "Video splitting completed": {
+        "start_time": "2025-03-17T00:26:36.284427",
+        "progress": 15
+      },
+      "Video split completed": {
+        "start_time": "2025-03-17T00:26:36.342567",
+        "progress": 15
+      },
+      "Video file saved": {
+        "start_time": "2025-03-17T00:26:36.413011",
+        "progress": 10
+      },
+      "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+        "start_time": "2025-03-17T00:26:36.447371",
+        "progress": 35
+      },
+      "Frame extraction completed": {
+        "start_time": "2025-03-17T00:26:43.389571",
+        "progress": 25
+      },
+      "Starting content moderation": {
+        "start_time": "2025-03-17T00:26:43.391569",
+        "progress": 30
+      },
+      "Content moderation completed": {
+        "start_time": "2025-03-17T00:26:49.994715",
+        "progress": 35
+      },
+      "Parallel processing completed": {
+        "start_time": "2025-03-17T00:26:49.998713",
+        "progress": 20
+      },
+      "Video processing results unpacked": {
+        "start_time": "2025-03-17T00:26:50.000711",
+        "progress": 30
+      },
+      "Audio transcription extracted": {
+        "start_time": "2025-03-17T00:26:50.002710",
+        "progress": 40
+      },
+      "Generating description": {
+        "start_time": "2025-03-17T00:26:50.004709",
+        "progress": 40
+      },
+      "Starting grid analysis": {
+        "start_time": "2025-03-17T00:26:50.006707",
+        "progress": 65
+      },
+      "Analyzing grid image 1/1": {
+        "start_time": "2025-03-17T00:26:50.009705",
+        "progress": 70
+      },
+      "Error: Error in analyzing grid images: Error code: 401 - {'error': {'message': 'Incorrect API key provided: AIzaSyDf***************************RCcU. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}": {
+        "start_time": "2025-03-17T00:26:55.246951",
+        "progress": 70
+      },
+      "Generating final description": {
+        "start_time": "2025-03-17T00:26:55.251981",
+        "progress": 70
+      },
+      "Error: Error in generate_description: Error code: 401 - {'error': {'message': 'Incorrect API key provided: AIzaSyDf***************************RCcU. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}": {
+        "start_time": "2025-03-17T00:26:55.537549",
+        "progress": 75
+      },
+      "Description generated": {
+        "start_time": "2025-03-17T00:26:55.541581",
+        "progress": 60
+      },
+      "Extracting metadata": {
+        "start_time": "2025-03-17T00:26:55.546098",
+        "progress": 60
+      },
+      "Metadata extracted": {
+        "start_time": "2025-03-17T00:26:56.008023",
+        "progress": 80
+      },
+      "Results compiled": {
+        "start_time": "2025-03-17T00:26:56.009023",
+        "progress": 90
+      },
+      "Task completed": {
+        "start_time": "2025-03-17T00:26:56.011020",
+        "progress": 100
+      }
+    },
+    "current_progress": 100,
+    "total_steps": 0,
+    "status": "completed",
+    "timing": {
+      "start_time": "2025-03-17T00:24:11.137104",
+      "steps_timing": {
+        "Starting parallel processing": {
+          "start_time": "2025-03-17T00:24:11.139103"
+        },
+        "Starting video processing": {
+          "start_time": "2025-03-17T00:24:11.140102"
+        },
+        "Saving video to temporary file": {
+          "start_time": "2025-03-17T00:24:11.142100"
+        },
+        "Opening video file": {
+          "start_time": "2025-03-17T00:24:11.196262"
+        },
+        "Calculating video parts": {
+          "start_time": "2025-03-17T00:24:12.507951"
+        },
+        "Processing video part 1/1": {
+          "start_time": "2025-03-17T00:24:12.509893"
+        },
+        "Video splitting completed": {
+          "start_time": "2025-03-17T00:26:36.284427"
+        },
+        "Video split completed": {
+          "start_time": "2025-03-17T00:26:36.342567"
+        },
+        "Video file saved": {
+          "start_time": "2025-03-17T00:26:36.413011"
+        },
+        "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+          "start_time": "2025-03-17T00:26:36.447371"
+        },
+        "Frame extraction completed": {
+          "start_time": "2025-03-17T00:26:43.389571"
+        },
+        "Starting content moderation": {
+          "start_time": "2025-03-17T00:26:43.391569"
+        },
+        "Content moderation completed": {
+          "start_time": "2025-03-17T00:26:49.994715"
+        },
+        "Parallel processing completed": {
+          "start_time": "2025-03-17T00:26:49.998713"
+        },
+        "Video processing results unpacked": {
+          "start_time": "2025-03-17T00:26:50.000711"
+        },
+        "Audio transcription extracted": {
+          "start_time": "2025-03-17T00:26:50.002710"
+        },
+        "Generating description": {
+          "start_time": "2025-03-17T00:26:50.004709"
+        },
+        "Starting grid analysis": {
+          "start_time": "2025-03-17T00:26:50.006707"
+        },
+        "Analyzing grid image 1/1": {
+          "start_time": "2025-03-17T00:26:50.009705"
+        },
+        "Error: Error in analyzing grid images: Error code: 401 - {'error': {'message': 'Incorrect API key provided: AIzaSyDf***************************RCcU. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}": {
+          "start_time": "2025-03-17T00:26:55.246951"
+        },
+        "Generating final description": {
+          "start_time": "2025-03-17T00:26:55.251981"
+        },
+        "Error: Error in generate_description: Error code: 401 - {'error': {'message': 'Incorrect API key provided: AIzaSyDf***************************RCcU. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}": {
+          "start_time": "2025-03-17T00:26:55.537549"
+        },
+        "Description generated": {
+          "start_time": "2025-03-17T00:26:55.541581"
+        },
+        "Extracting metadata": {
+          "start_time": "2025-03-17T00:26:55.546098"
+        },
+        "Metadata extracted": {
+          "start_time": "2025-03-17T00:26:56.008023"
+        },
+        "Results compiled": {
+          "start_time": "2025-03-17T00:26:56.009023"
+        },
+        "Task completed": {
+          "start_time": "2025-03-17T00:26:56.011020"
+        }
+      },
+      "end_time": "2025-03-17T00:26:56.013113",
+      "total_duration_seconds": 164.876009
+    },
+    "end_time": "2025-03-17T00:26:56.013113"
+  },
+  "e67e32d8-36c2-425b-a126-cfefeb169cb8": {
+    "start_time": "2025-03-17T07:40:28.545349",
+    "steps": {},
+    "current_progress": 0,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-17T07:40:28.545349",
+      "steps_timing": {}
+    }
+  },
+  "d213e4a1-ebf8-413c-a088-81393b04a519": {
+    "start_time": "2025-03-17T07:55:44.795531",
+    "steps": {},
+    "current_progress": 0,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-17T07:55:44.795531",
+      "steps_timing": {}
+    }
+  },
+  "781e8578-6617-4c41-aa82-04fbcb79fdd0": {
+    "start_time": "2025-03-17T07:57:18.148754",
+    "steps": {},
+    "current_progress": 0,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-17T07:57:18.148754",
+      "steps_timing": {}
+    }
+  },
+  "1ff1c86d-e0c4-4489-aeef-6bcd7d0c2901": {
+    "start_time": "2025-03-17T07:57:58.590790",
+    "steps": {},
+    "current_progress": 0,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-17T07:57:58.590790",
+      "steps_timing": {}
+    }
+  },
+  "f4360ab6-c05e-4ce9-845d-fd9130e17648": {
+    "start_time": "2025-03-17T08:01:31.409669",
+    "steps": {},
+    "current_progress": 0,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-17T08:01:31.409669",
+      "steps_timing": {}
+    }
+  },
+  "6c07309b-10f1-4c8f-a93c-244fb8324b81": {
+    "start_time": "2025-03-17T08:05:31.945742",
+    "steps": {},
+    "current_progress": 0,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-17T08:05:31.945742",
+      "steps_timing": {}
+    }
+  },
+  "c084bee4-3f37-49f6-a2c1-e690587e6e37": {
+    "start_time": "2025-03-17T08:27:23.590878",
+    "steps": {},
+    "current_progress": 0,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-17T08:27:23.590878",
+      "steps_timing": {}
+    }
+  },
+  "c4de99e8-6e13-4a79-8864-0cdcec6029e6": {
+    "start_time": "2025-03-17T08:35:24.453929",
+    "steps": {},
+    "current_progress": 0,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-17T08:35:24.453929",
+      "steps_timing": {}
+    }
+  },
+  "ac141f88-97dc-48cd-a78c-2130eb96856d": {
+    "start_time": "2025-03-17T08:40:23.864064",
+    "steps": {},
+    "current_progress": 0,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-17T08:40:23.864064",
+      "steps_timing": {}
+    }
+  },
+  "b3b589ab-857a-4070-9e26-25374570b322": {
+    "start_time": "2025-03-17T08:41:09.518164",
+    "steps": {},
+    "current_progress": 0,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-17T08:41:09.518164",
+      "steps_timing": {}
+    }
+  },
+  "bbd0022f-2eb8-4419-ad1e-edd0b975c0cf": {
+    "start_time": "2025-03-17T09:10:56.370206",
+    "steps": {
+      "Video file saved": {
+        "start_time": "2025-03-17T09:10:56.701645",
+        "progress": 10
+      },
+      "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+        "start_time": "2025-03-17T09:10:56.732626",
+        "progress": 35
+      }
+    },
+    "current_progress": 35,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-17T09:10:56.370206",
+      "steps_timing": {
+        "Video file saved": {
+          "start_time": "2025-03-17T09:10:56.701645"
+        },
+        "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+          "start_time": "2025-03-17T09:10:56.732626"
+        }
+      }
+    }
+  },
+  "ee175a09-438b-4dc0-ae94-905ebc2fe7da": {
+    "start_time": "2025-03-17T09:15:46.584789",
+    "steps": {
+      "Video file saved": {
+        "start_time": "2025-03-17T09:15:47.147718",
+        "progress": 10
+      },
+      "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+        "start_time": "2025-03-17T09:15:47.172780",
+        "progress": 35
+      }
+    },
+    "current_progress": 35,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-17T09:15:46.584789",
+      "steps_timing": {
+        "Video file saved": {
+          "start_time": "2025-03-17T09:15:47.147718"
+        },
+        "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+          "start_time": "2025-03-17T09:15:47.172780"
+        }
+      }
+    }
+  },
+  "72440440-49fb-4ff9-ac6d-3a3e4815871c": {
+    "start_time": "2025-03-17T09:21:27.960669",
+    "steps": {
+      "Video file saved": {
+        "start_time": "2025-03-17T09:21:28.230563",
+        "progress": 10
+      },
+      "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+        "start_time": "2025-03-17T09:21:28.251682",
+        "progress": 35
+      }
+    },
+    "current_progress": 35,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-17T09:21:27.960669",
+      "steps_timing": {
+        "Video file saved": {
+          "start_time": "2025-03-17T09:21:28.230563"
+        },
+        "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+          "start_time": "2025-03-17T09:21:28.251682"
+        }
+      }
+    }
+  },
+  "2e17f94b-2770-4dac-bb20-90beabe41aac": {
+    "start_time": "2025-03-17T20:04:25.857089",
+    "steps": {
+      "Video file saved": {
+        "start_time": "2025-03-17T20:04:27.345767",
+        "progress": 10
+      },
+      "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+        "start_time": "2025-03-17T20:04:27.371753",
+        "progress": 35
+      }
+    },
+    "current_progress": 35,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-17T20:04:25.857089",
+      "steps_timing": {
+        "Video file saved": {
+          "start_time": "2025-03-17T20:04:27.345767"
+        },
+        "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+          "start_time": "2025-03-17T20:04:27.371753"
+        }
+      }
+    }
+  },
+  "882b9ac2-3a11-4676-8bcf-dd98b1b461f5": {
+    "start_time": "2025-03-17T20:14:31.783681",
+    "steps": {
+      "Video file saved": {
+        "start_time": "2025-03-17T20:14:32.038977",
+        "progress": 10
+      },
+      "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+        "start_time": "2025-03-17T20:14:32.063034",
+        "progress": 35
+      }
+    },
+    "current_progress": 35,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-17T20:14:31.783681",
+      "steps_timing": {
+        "Video file saved": {
+          "start_time": "2025-03-17T20:14:32.038977"
+        },
+        "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+          "start_time": "2025-03-17T20:14:32.063034"
+        }
+      }
+    }
+  },
+  "200f0a26-7c28-46f6-8825-c93b54bb5026": {
+    "start_time": "2025-03-17T20:45:16.049574",
+    "steps": {
+      "Video file saved": {
+        "start_time": "2025-03-17T20:45:16.642070",
+        "progress": 10
+      },
+      "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+        "start_time": "2025-03-17T20:45:16.822966",
+        "progress": 35
+      }
+    },
+    "current_progress": 35,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-17T20:45:16.049574",
+      "steps_timing": {
+        "Video file saved": {
+          "start_time": "2025-03-17T20:45:16.642070"
+        },
+        "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+          "start_time": "2025-03-17T20:45:16.822966"
+        }
+      }
+    }
+  },
+  "54aedcfe-55e3-46e8-bb5f-fe9635f4266a": {
+    "start_time": "2025-03-17T22:09:14.229703",
+    "steps": {
+      "Video file saved": {
+        "start_time": "2025-03-17T22:09:45.730284",
+        "progress": 10
+      },
+      "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+        "start_time": "2025-03-17T22:09:45.879880",
+        "progress": 35
+      }
+    },
+    "current_progress": 35,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-17T22:09:14.229703",
+      "steps_timing": {
+        "Video file saved": {
+          "start_time": "2025-03-17T22:09:45.730284"
+        },
+        "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+          "start_time": "2025-03-17T22:09:45.879880"
+        }
+      }
+    }
+  },
+  "e1823f69-0876-4357-bed8-b6afbc497a32": {
+    "start_time": "2025-03-17T22:28:00.087230",
+    "steps": {
+      "Video file saved": {
+        "start_time": "2025-03-17T22:28:00.949556",
+        "progress": 10
+      },
+      "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+        "start_time": "2025-03-17T22:28:01.143977",
+        "progress": 35
+      }
+    },
+    "current_progress": 35,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-17T22:28:00.087230",
+      "steps_timing": {
+        "Video file saved": {
+          "start_time": "2025-03-17T22:28:00.949556"
+        },
+        "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+          "start_time": "2025-03-17T22:28:01.143977"
+        }
+      }
+    }
+  },
+  "4322a9e3-a7b9-43e8-a6f2-7d2f15e9ac86": {
+    "start_time": "2025-03-17T22:36:47.622651",
+    "steps": {
+      "Video file saved": {
+        "start_time": "2025-03-17T22:36:48.096857",
+        "progress": 10
+      },
+      "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+        "start_time": "2025-03-17T22:36:48.127394",
+        "progress": 35
+      }
+    },
+    "current_progress": 35,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-17T22:36:47.622651",
+      "steps_timing": {
+        "Video file saved": {
+          "start_time": "2025-03-17T22:36:48.096857"
+        },
+        "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+          "start_time": "2025-03-17T22:36:48.127394"
+        }
+      }
+    }
+  },
+  "b1e18f25-e14f-41c9-a78d-4cf94368af87": {
+    "start_time": "2025-03-17T22:39:25.901534",
+    "steps": {
+      "Video file saved": {
+        "start_time": "2025-03-17T22:39:26.261259",
+        "progress": 10
+      },
+      "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+        "start_time": "2025-03-17T22:39:26.281350",
+        "progress": 35
+      }
+    },
+    "current_progress": 35,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-17T22:39:25.901534",
+      "steps_timing": {
+        "Video file saved": {
+          "start_time": "2025-03-17T22:39:26.261259"
+        },
+        "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+          "start_time": "2025-03-17T22:39:26.281350"
+        }
+      }
+    }
+  },
+  "2f88a72b-87ec-4c11-9848-bdb2fc32b4cd": {
+    "start_time": "2025-03-17T22:45:55.252023",
+    "steps": {
+      "Video file saved": {
+        "start_time": "2025-03-17T22:45:55.926537",
+        "progress": 10
+      },
+      "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+        "start_time": "2025-03-17T22:45:55.951962",
+        "progress": 35
+      }
+    },
+    "current_progress": 35,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-17T22:45:55.252023",
+      "steps_timing": {
+        "Video file saved": {
+          "start_time": "2025-03-17T22:45:55.926537"
+        },
+        "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+          "start_time": "2025-03-17T22:45:55.951962"
+        }
+      }
+    }
+  },
+  "2b1641ea-7a93-4d72-9570-c139ca564bcb": {
+    "start_time": "2025-03-17T22:48:51.614059",
+    "steps": {
+      "Video file saved": {
+        "start_time": "2025-03-17T22:48:52.488342",
+        "progress": 10
+      },
+      "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+        "start_time": "2025-03-17T22:48:52.511398",
+        "progress": 35
+      }
+    },
+    "current_progress": 35,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-17T22:48:51.614059",
+      "steps_timing": {
+        "Video file saved": {
+          "start_time": "2025-03-17T22:48:52.488342"
+        },
+        "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+          "start_time": "2025-03-17T22:48:52.511398"
+        }
+      }
+    }
+  },
+  "011b9202-249b-4e2b-8bca-fac91fcaafe9": {
+    "start_time": "2025-03-17T22:51:19.745987",
+    "steps": {
+      "Video file saved": {
+        "start_time": "2025-03-17T22:51:20.052098",
+        "progress": 10
+      },
+      "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+        "start_time": "2025-03-17T22:51:20.077195",
+        "progress": 35
+      }
+    },
+    "current_progress": 35,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-17T22:51:19.745987",
+      "steps_timing": {
+        "Video file saved": {
+          "start_time": "2025-03-17T22:51:20.052098"
+        },
+        "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+          "start_time": "2025-03-17T22:51:20.077195"
+        }
+      }
+    }
+  },
+  "9a1e68c7-e427-4f74-a355-a4b21b57e5ed": {
+    "start_time": "2025-03-17T22:59:42.481580",
+    "steps": {
+      "Video file saved": {
+        "start_time": "2025-03-17T22:59:52.059242",
+        "progress": 10
+      },
+      "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+        "start_time": "2025-03-17T22:59:52.123532",
+        "progress": 35
+      }
+    },
+    "current_progress": 35,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-17T22:59:42.481580",
+      "steps_timing": {
+        "Video file saved": {
+          "start_time": "2025-03-17T22:59:52.059242"
+        },
+        "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+          "start_time": "2025-03-17T22:59:52.123532"
+        }
+      }
+    }
+  },
+  "b57f1e39-8a27-461f-9552-5e35400fb125": {
+    "start_time": "2025-03-17T23:29:35.348292",
+    "steps": {
+      "Video file saved": {
+        "start_time": "2025-03-17T23:29:57.783569",
+        "progress": 10
+      },
+      "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+        "start_time": "2025-03-17T23:29:57.804238",
+        "progress": 35
+      }
+    },
+    "current_progress": 35,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-17T23:29:35.348292",
+      "steps_timing": {
+        "Video file saved": {
+          "start_time": "2025-03-17T23:29:57.783569"
+        },
+        "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+          "start_time": "2025-03-17T23:29:57.804238"
+        }
+      }
+    }
+  },
+  "8c48639f-d61b-47c0-af0d-59448b3a71f1": {
+    "start_time": "2025-03-17T23:34:06.243826",
+    "steps": {
+      "Starting video processing": {
+        "start_time": "2025-03-17T23:34:06.252820",
+        "progress": 5
+      },
+      "Saving video to temporary file": {
+        "start_time": "2025-03-17T23:34:06.263816",
+        "progress": 6
+      },
+      "Opening video file": {
+        "start_time": "2025-03-17T23:34:06.437162",
+        "progress": 7
+      },
+      "Calculating video parts": {
+        "start_time": "2025-03-17T23:34:06.500503",
+        "progress": 8
+      },
+      "Processing video part 1/1": {
+        "start_time": "2025-03-17T23:34:06.506519",
+        "progress": 8.0
+      }
+    },
+    "current_progress": 8.0,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-17T23:34:06.243826",
+      "steps_timing": {
+        "Starting video processing": {
+          "start_time": "2025-03-17T23:34:06.252820"
+        },
+        "Saving video to temporary file": {
+          "start_time": "2025-03-17T23:34:06.263816"
+        },
+        "Opening video file": {
+          "start_time": "2025-03-17T23:34:06.437162"
+        },
+        "Calculating video parts": {
+          "start_time": "2025-03-17T23:34:06.500503"
+        },
+        "Processing video part 1/1": {
+          "start_time": "2025-03-17T23:34:06.506519"
+        }
+      }
+    }
+  },
+  "841ddb1b-a5d2-4ac8-af94-57cb83ee4873": {
+    "start_time": "2025-03-17T23:35:51.481418",
+    "steps": {
+      "Starting video processing": {
+        "start_time": "2025-03-17T23:35:51.491531",
+        "progress": 5
+      },
+      "Saving video to temporary file": {
+        "start_time": "2025-03-17T23:35:51.503524",
+        "progress": 6
+      },
+      "Opening video file": {
+        "start_time": "2025-03-17T23:35:51.558543",
+        "progress": 7
+      },
+      "Calculating video parts": {
+        "start_time": "2025-03-17T23:35:51.627890",
+        "progress": 8
+      },
+      "Processing video part 1/1": {
+        "start_time": "2025-03-17T23:35:51.633887",
+        "progress": 8.0
+      },
+      "Video splitting completed": {
+        "start_time": "2025-03-17T23:38:18.519329",
+        "progress": 15
+      },
+      "Video split completed": {
+        "start_time": "2025-03-17T23:38:18.539389",
+        "progress": 15
+      },
+      "Video file saved": {
+        "start_time": "2025-03-17T23:38:18.599885",
+        "progress": 10
+      },
+      "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+        "start_time": "2025-03-17T23:38:18.629297",
+        "progress": 35
+      },
+      "Frame extraction completed": {
+        "start_time": "2025-03-17T23:38:25.408949",
+        "progress": 25
+      },
+      "Starting content moderation": {
+        "start_time": "2025-03-17T23:38:25.419654",
+        "progress": 30
+      },
+      "Content moderation completed": {
+        "start_time": "2025-03-17T23:38:31.100846",
+        "progress": 35
+      }
+    },
+    "current_progress": 35,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-17T23:35:51.481418",
+      "steps_timing": {
+        "Starting video processing": {
+          "start_time": "2025-03-17T23:35:51.491531"
+        },
+        "Saving video to temporary file": {
+          "start_time": "2025-03-17T23:35:51.503524"
+        },
+        "Opening video file": {
+          "start_time": "2025-03-17T23:35:51.558543"
+        },
+        "Calculating video parts": {
+          "start_time": "2025-03-17T23:35:51.627890"
+        },
+        "Processing video part 1/1": {
+          "start_time": "2025-03-17T23:35:51.633887"
+        },
+        "Video splitting completed": {
+          "start_time": "2025-03-17T23:38:18.519329"
+        },
+        "Video split completed": {
+          "start_time": "2025-03-17T23:38:18.539389"
+        },
+        "Video file saved": {
+          "start_time": "2025-03-17T23:38:18.599885"
+        },
+        "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+          "start_time": "2025-03-17T23:38:18.629297"
+        },
+        "Frame extraction completed": {
+          "start_time": "2025-03-17T23:38:25.408949"
+        },
+        "Starting content moderation": {
+          "start_time": "2025-03-17T23:38:25.419654"
+        },
+        "Content moderation completed": {
+          "start_time": "2025-03-17T23:38:31.100846"
+        }
+      }
+    }
+  },
+  "e29be92f-4da3-476e-82b7-0e241bfb1d1e": {
+    "start_time": "2025-03-17T23:59:08.976029",
+    "steps": {
+      "Starting video processing": {
+        "start_time": "2025-03-17T23:59:08.981090",
+        "progress": 5
+      },
+      "Saving video to temporary file": {
+        "start_time": "2025-03-17T23:59:08.987085",
+        "progress": 6
+      },
+      "Opening video file": {
+        "start_time": "2025-03-17T23:59:09.177090",
+        "progress": 7
+      },
+      "Calculating video parts": {
+        "start_time": "2025-03-17T23:59:09.548100",
+        "progress": 8
+      },
+      "Processing video part 1/1": {
+        "start_time": "2025-03-17T23:59:09.560103",
+        "progress": 8.0
+      },
+      "Video splitting completed": {
+        "start_time": "2025-03-17T23:59:18.692346",
+        "progress": 15
+      },
+      "Video split completed": {
+        "start_time": "2025-03-17T23:59:18.706390",
+        "progress": 15
+      },
+      "Video file saved": {
+        "start_time": "2025-03-17T23:59:18.751931",
+        "progress": 10
+      },
+      "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+        "start_time": "2025-03-17T23:59:18.908121",
+        "progress": 35
+      },
+      "Frame extraction completed": {
+        "start_time": "2025-03-17T23:59:26.229694",
+        "progress": 25
+      },
+      "Starting content moderation": {
+        "start_time": "2025-03-17T23:59:26.235748",
+        "progress": 30
+      },
+      "Content moderation completed": {
+        "start_time": "2025-03-17T23:59:32.398540",
+        "progress": 35
+      }
+    },
+    "current_progress": 35,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-17T23:59:08.976029",
+      "steps_timing": {
+        "Starting video processing": {
+          "start_time": "2025-03-17T23:59:08.981090"
+        },
+        "Saving video to temporary file": {
+          "start_time": "2025-03-17T23:59:08.987085"
+        },
+        "Opening video file": {
+          "start_time": "2025-03-17T23:59:09.177090"
+        },
+        "Calculating video parts": {
+          "start_time": "2025-03-17T23:59:09.548100"
+        },
+        "Processing video part 1/1": {
+          "start_time": "2025-03-17T23:59:09.560103"
+        },
+        "Video splitting completed": {
+          "start_time": "2025-03-17T23:59:18.692346"
+        },
+        "Video split completed": {
+          "start_time": "2025-03-17T23:59:18.706390"
+        },
+        "Video file saved": {
+          "start_time": "2025-03-17T23:59:18.751931"
+        },
+        "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+          "start_time": "2025-03-17T23:59:18.908121"
+        },
+        "Frame extraction completed": {
+          "start_time": "2025-03-17T23:59:26.229694"
+        },
+        "Starting content moderation": {
+          "start_time": "2025-03-17T23:59:26.235748"
+        },
+        "Content moderation completed": {
+          "start_time": "2025-03-17T23:59:32.398540"
+        }
+      }
+    }
+  },
+  "4cb6cfba-452e-4b72-9941-98d33d1193c8": {
+    "start_time": "2025-03-18T01:13:42.170512",
+    "steps": {
+      "Video file saved": {
+        "start_time": "2025-03-18T01:13:51.959121",
+        "progress": 10
+      },
+      "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+        "start_time": "2025-03-18T01:13:51.990161",
+        "progress": 35
+      }
+    },
+    "current_progress": 35,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-18T01:13:42.170512",
+      "steps_timing": {
+        "Video file saved": {
+          "start_time": "2025-03-18T01:13:51.959121"
+        },
+        "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+          "start_time": "2025-03-18T01:13:51.990161"
+        }
+      }
+    }
+  },
+  "1d15ebee-278e-4768-8590-a0fc1b2286f3": {
+    "start_time": "2025-03-18T01:54:16.344080",
+    "steps": {
+      "Video file saved": {
+        "start_time": "2025-03-18T01:54:50.826772",
+        "progress": 10
+      },
+      "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+        "start_time": "2025-03-18T01:54:50.913970",
+        "progress": 35
+      }
+    },
+    "current_progress": 35,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-18T01:54:16.344080",
+      "steps_timing": {
+        "Video file saved": {
+          "start_time": "2025-03-18T01:54:50.826772"
+        },
+        "Error: Error in audio processing: [WinError 2] The system cannot find the file specified": {
+          "start_time": "2025-03-18T01:54:50.913970"
+        }
+      }
+    }
+  },
+  "e9166139-83a9-490f-845b-4c2f073b207a": {
+    "start_time": "2025-03-18T02:11:37.508319",
+    "steps": {
+      "Video file saved": {
+        "start_time": "2025-03-18T02:11:48.954921",
+        "progress": 10
+      },
+      "Video loaded for audio extraction": {
+        "start_time": "2025-03-18T02:12:12.211587",
+        "progress": 15
+      },
+      "Audio extracted and saved": {
+        "start_time": "2025-03-18T02:12:12.250962",
+        "progress": 25
+      },
+      "Starting audio transcription": {
+        "start_time": "2025-03-18T02:12:12.258017",
+        "progress": 30
+      },
+      "Error: Error in audio processing: Could not create `Blob`, expected `Blob`, `dict` or an `Image` type(`PIL.Image.Image` or `IPython.display.Image`).\nGot a: <class '_io.BufferedReader'>\nValue: <_io.BufferedReader name='C:\\\\Users\\\\ranvi\\\\AppData\\\\Local\\\\Temp\\\\tmppxwmjg2g.wav'>": {
+        "start_time": "2025-03-18T02:12:12.341968",
+        "progress": 35
+      }
+    },
+    "current_progress": 35,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-18T02:11:37.508319",
+      "steps_timing": {
+        "Video file saved": {
+          "start_time": "2025-03-18T02:11:48.954921"
+        },
+        "Video loaded for audio extraction": {
+          "start_time": "2025-03-18T02:12:12.211587"
+        },
+        "Audio extracted and saved": {
+          "start_time": "2025-03-18T02:12:12.250962"
+        },
+        "Starting audio transcription": {
+          "start_time": "2025-03-18T02:12:12.258017"
+        },
+        "Error: Error in audio processing: Could not create `Blob`, expected `Blob`, `dict` or an `Image` type(`PIL.Image.Image` or `IPython.display.Image`).\nGot a: <class '_io.BufferedReader'>\nValue: <_io.BufferedReader name='C:\\\\Users\\\\ranvi\\\\AppData\\\\Local\\\\Temp\\\\tmppxwmjg2g.wav'>": {
+          "start_time": "2025-03-18T02:12:12.341968"
+        }
+      }
+    }
+  },
+  "cc48b87a-2438-4b76-8627-61876a3c6e96": {
+    "start_time": "2025-03-18T02:45:53.356883",
+    "steps": {},
+    "current_progress": 0,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-18T02:45:53.356883",
+      "steps_timing": {}
+    }
+  },
+  "ec331726-d251-4a8a-9919-e14790fb1ebb": {
+    "start_time": "2025-03-18T02:51:46.721538",
+    "steps": {},
+    "current_progress": 0,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-18T02:51:46.721538",
+      "steps_timing": {}
+    }
+  },
+  "8d30418b-bbc4-4ab6-a625-655c6f3893fe": {
+    "start_time": "2025-03-18T02:56:14.896073",
+    "steps": {},
+    "current_progress": 0,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-18T02:56:14.896073",
+      "steps_timing": {}
+    }
+  },
+  "f065be3a-8237-4cd5-a2b7-9d29a8478aaa": {
+    "start_time": "2025-03-18T03:01:12.948958",
+    "steps": {},
+    "current_progress": 0,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-18T03:01:12.948958",
+      "steps_timing": {}
+    }
+  },
+  "1f462842-351b-47c0-b3bf-f8f19df57513": {
+    "start_time": "2025-03-18T03:03:28.628363",
+    "steps": {},
+    "current_progress": 0,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-18T03:03:28.628363",
+      "steps_timing": {}
+    }
+  },
+  "5cf8bf4d-5a35-4aa6-9549-c0ffea551a2a": {
+    "start_time": "2025-03-18T03:07:25.506388",
+    "steps": {},
+    "current_progress": 0,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-18T03:07:25.506388",
+      "steps_timing": {}
+    }
+  },
+  "83fcf85b-2e4f-419f-9001-a9d2d1af1da4": {
+    "start_time": "2025-03-18T03:16:09.017013",
+    "steps": {},
+    "current_progress": 0,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-18T03:16:09.017013",
+      "steps_timing": {}
+    }
+  },
+  "c4e515a5-d341-44a6-84a5-6a25f2b51afe": {
+    "start_time": "2025-03-18T03:19:51.420007",
+    "steps": {},
+    "current_progress": 0,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-18T03:19:51.420007",
+      "steps_timing": {}
+    }
+  },
+  "792b2266-2674-480b-9f7c-c238f1687563": {
+    "start_time": "2025-03-18T03:22:29.777471",
+    "steps": {},
+    "current_progress": 0,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-18T03:22:29.777471",
+      "steps_timing": {}
+    }
+  },
+  "d341b537-e01b-4927-89d5-26488724cf73": {
+    "start_time": "2025-03-18T03:31:34.774253",
+    "steps": {},
+    "current_progress": 0,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-18T03:31:34.774253",
+      "steps_timing": {}
+    }
+  },
+  "2a5d2633-9396-4182-afcc-615b6af23bb0": {
+    "start_time": "2025-03-18T03:36:49.691927",
+    "steps": {},
+    "current_progress": 100,
+    "total_steps": 0,
+    "status": "completed",
+    "timing": {
+      "start_time": "2025-03-18T03:36:49.691927",
+      "steps_timing": {},
+      "end_time": "2025-03-18T03:37:17.836793",
+      "total_duration_seconds": 28.144866
+    },
+    "end_time": "2025-03-18T03:37:17.836793"
+  },
+  "a93d4450-bb5e-42d1-bfc4-d143dc7054d9": {
+    "start_time": "2025-03-18T03:41:27.702568",
+    "steps": {},
+    "current_progress": 0,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-18T03:41:27.702568",
+      "steps_timing": {}
+    }
+  },
+  "dfc599f1-d97e-4228-a690-7ee7ff6f341e": {
+    "start_time": "2025-03-18T03:42:12.362513",
+    "steps": {},
+    "current_progress": 100,
+    "total_steps": 0,
+    "status": "completed",
+    "timing": {
+      "start_time": "2025-03-18T03:42:12.362513",
+      "steps_timing": {},
+      "end_time": "2025-03-18T03:42:47.065203",
+      "total_duration_seconds": 34.70269
+    },
+    "end_time": "2025-03-18T03:42:47.065203"
+  },
+  "826138d3-7a90-43e6-8e86-1c0b17bab991": {
+    "start_time": "2025-03-18T03:50:21.598071",
+    "steps": {},
+    "current_progress": 0,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-18T03:50:21.598071",
+      "steps_timing": {}
+    }
+  },
+  "e5541727-57cc-4835-995d-a2b118b44cb1": {
+    "start_time": "2025-03-18T03:57:13.259901",
+    "steps": {},
+    "current_progress": 100,
+    "total_steps": 0,
+    "status": "completed",
+    "timing": {
+      "start_time": "2025-03-18T03:57:13.259901",
+      "steps_timing": {},
+      "end_time": "2025-03-18T03:58:07.246704",
+      "total_duration_seconds": 53.986803
+    },
+    "end_time": "2025-03-18T03:58:07.246704"
+  },
+  "4f02f724-ac32-497f-8185-08b89a38d051": {
+    "start_time": "2025-03-18T04:05:54.953783",
+    "steps": {},
+    "current_progress": 100,
+    "total_steps": 0,
+    "status": "completed",
+    "timing": {
+      "start_time": "2025-03-18T04:05:54.953783",
+      "steps_timing": {},
+      "end_time": "2025-03-18T04:07:06.605664",
+      "total_duration_seconds": 71.651881
+    },
+    "end_time": "2025-03-18T04:07:06.605664"
+  },
+  "f3e544b9-e0b9-47a8-a2f4-4a0a11b35470": {
+    "start_time": "2025-03-18T04:09:02.381938",
+    "steps": {},
+    "current_progress": 100,
+    "total_steps": 0,
+    "status": "completed",
+    "timing": {
+      "start_time": "2025-03-18T04:09:02.381938",
+      "steps_timing": {},
+      "end_time": "2025-03-18T04:09:45.757413",
+      "total_duration_seconds": 43.375475
+    },
+    "end_time": "2025-03-18T04:09:45.757413"
+  },
+  "594c1c23-1350-43d4-835b-77bcd9e443ca": {
+    "start_time": "2025-03-18T04:12:56.405638",
+    "steps": {},
+    "current_progress": 100,
+    "total_steps": 0,
+    "status": "completed",
+    "timing": {
+      "start_time": "2025-03-18T04:12:56.405638",
+      "steps_timing": {},
+      "end_time": "2025-03-18T04:13:43.884436",
+      "total_duration_seconds": 47.478798
+    },
+    "end_time": "2025-03-18T04:13:43.884436"
+  },
+  "267146fe-0173-43b3-94f9-8021663da681": {
+    "start_time": "2025-03-18T04:18:19.671576",
+    "steps": {},
+    "current_progress": 100,
+    "total_steps": 0,
+    "status": "completed",
+    "timing": {
+      "start_time": "2025-03-18T04:18:19.671576",
+      "steps_timing": {},
+      "end_time": "2025-03-18T04:19:10.462860",
+      "total_duration_seconds": 50.791284
+    },
+    "end_time": "2025-03-18T04:19:10.462860"
+  },
+  "9b6497e2-e839-4009-89af-27fdef64932f": {
+    "start_time": "2025-03-18T04:22:04.900018",
+    "steps": {},
+    "current_progress": 100,
+    "total_steps": 0,
+    "status": "completed",
+    "timing": {
+      "start_time": "2025-03-18T04:22:04.900018",
+      "steps_timing": {},
+      "end_time": "2025-03-18T04:22:51.541226",
+      "total_duration_seconds": 46.641208
+    },
+    "end_time": "2025-03-18T04:22:51.541226"
+  },
+  "b4b8942c-484a-4db6-b14d-39593483966c": {
+    "start_time": "2025-03-18T06:09:50.220459",
+    "steps": {},
+    "current_progress": 100,
+    "total_steps": 0,
+    "status": "completed",
+    "timing": {
+      "start_time": "2025-03-18T06:09:50.220459",
+      "steps_timing": {},
+      "end_time": "2025-03-18T06:10:49.295748",
+      "total_duration_seconds": 59.075289
+    },
+    "end_time": "2025-03-18T06:10:49.295748"
+  },
+  "29a93e0b-3d4c-4906-bcbb-c3b62a2ba90b": {
+    "start_time": "2025-03-18T06:20:47.700021",
+    "steps": {},
+    "current_progress": 100,
+    "total_steps": 0,
+    "status": "completed",
+    "timing": {
+      "start_time": "2025-03-18T06:20:47.700021",
+      "steps_timing": {},
+      "end_time": "2025-03-18T06:21:36.551389",
+      "total_duration_seconds": 48.851368
+    },
+    "end_time": "2025-03-18T06:21:36.551389"
+  },
+  "8885e413-b4b2-4ccf-8d76-7004cef397ef": {
+    "start_time": "2025-03-18T06:36:59.497616",
+    "steps": {},
+    "current_progress": 100,
+    "total_steps": 0,
+    "status": "completed",
+    "timing": {
+      "start_time": "2025-03-18T06:36:59.497616",
+      "steps_timing": {},
+      "end_time": "2025-03-18T06:37:39.647309",
+      "total_duration_seconds": 40.149693
+    },
+    "end_time": "2025-03-18T06:37:39.647309"
+  },
+  "b109edb2-d155-422d-812c-b79be657ad92": {
+    "start_time": "2025-03-18T06:53:12.866708",
+    "steps": {},
+    "current_progress": 100,
+    "total_steps": 0,
+    "status": "completed",
+    "timing": {
+      "start_time": "2025-03-18T06:53:12.866708",
+      "steps_timing": {},
+      "end_time": "2025-03-18T06:53:59.395724",
+      "total_duration_seconds": 46.529016
+    },
+    "end_time": "2025-03-18T06:53:59.395724"
+  },
+  "d236e79b-852b-4ac5-9fad-97f5499fdc34": {
+    "start_time": "2025-03-18T06:57:37.683470",
+    "steps": {},
+    "current_progress": 100,
+    "total_steps": 0,
+    "status": "completed",
+    "timing": {
+      "start_time": "2025-03-18T06:57:37.683470",
+      "steps_timing": {},
+      "end_time": "2025-03-18T06:58:29.868327",
+      "total_duration_seconds": 52.184857
+    },
+    "end_time": "2025-03-18T06:58:29.868327"
+  },
+  "53fa9e29-fe2e-41b5-83b9-c734378e635e": {
+    "start_time": "2025-03-18T07:31:03.452239",
+    "steps": {},
+    "current_progress": 100,
+    "total_steps": 0,
+    "status": "completed",
+    "timing": {
+      "start_time": "2025-03-18T07:31:03.452239",
+      "steps_timing": {},
+      "end_time": "2025-03-18T07:31:55.130548",
+      "total_duration_seconds": 51.678309
+    },
+    "end_time": "2025-03-18T07:31:55.130548"
+  },
+  "db9ae8ed-efe1-4db9-aaf0-d1dbd12b870b": {
+    "start_time": "2025-03-18T07:39:23.854855",
+    "steps": {},
+    "current_progress": 100,
+    "total_steps": 0,
+    "status": "completed",
+    "timing": {
+      "start_time": "2025-03-18T07:39:23.854855",
+      "steps_timing": {},
+      "end_time": "2025-03-18T07:40:03.734992",
+      "total_duration_seconds": 39.880137
+    },
+    "end_time": "2025-03-18T07:40:03.734992"
+  },
+  "f03bdae4-7151-4b19-8662-ccc025d8826d": {
+    "start_time": "2025-03-18T07:43:23.367710",
+    "steps": {},
+    "current_progress": 100,
+    "total_steps": 0,
+    "status": "completed",
+    "timing": {
+      "start_time": "2025-03-18T07:43:23.367710",
+      "steps_timing": {},
+      "end_time": "2025-03-18T07:44:09.949433",
+      "total_duration_seconds": 46.581723
+    },
+    "end_time": "2025-03-18T07:44:09.949433"
+  },
+  "998bd8df-a21c-407e-abd5-67bba4c8e70c": {
+    "start_time": "2025-03-18T07:48:59.990263",
+    "steps": {},
+    "current_progress": 100,
+    "total_steps": 0,
+    "status": "completed",
+    "timing": {
+      "start_time": "2025-03-18T07:48:59.990263",
+      "steps_timing": {},
+      "end_time": "2025-03-18T07:49:41.869796",
+      "total_duration_seconds": 41.879533
+    },
+    "end_time": "2025-03-18T07:49:41.869796"
+  },
+  "4d83a510-f01a-42bd-9f15-b50b591b5391": {
+    "start_time": "2025-03-18T07:53:21.797043",
+    "steps": {},
+    "current_progress": 100,
+    "total_steps": 0,
+    "status": "completed",
+    "timing": {
+      "start_time": "2025-03-18T07:53:21.797043",
+      "steps_timing": {},
+      "end_time": "2025-03-18T07:54:13.303500",
+      "total_duration_seconds": 51.506457
+    },
+    "end_time": "2025-03-18T07:54:13.303500"
+  },
+  "1bb90996-3733-47b2-8808-2b727fecc3af": {
+    "start_time": "2025-03-18T08:25:59.211990",
+    "steps": {},
+    "current_progress": 100,
+    "total_steps": 0,
+    "status": "completed",
+    "timing": {
+      "start_time": "2025-03-18T08:25:59.211990",
+      "steps_timing": {},
+      "end_time": "2025-03-18T08:28:20.283156",
+      "total_duration_seconds": 141.071166
+    },
+    "end_time": "2025-03-18T08:28:20.283156"
+  },
+  "8b20b9f3-3d5c-48b5-98eb-a81f33b42ceb": {
+    "start_time": "2025-03-18T08:36:12.022981",
+    "steps": {},
+    "current_progress": 100,
+    "total_steps": 0,
+    "status": "completed",
+    "timing": {
+      "start_time": "2025-03-18T08:36:12.022981",
+      "steps_timing": {},
+      "end_time": "2025-03-18T08:40:13.490174",
+      "total_duration_seconds": 241.467193
+    },
+    "end_time": "2025-03-18T08:40:13.490174"
+  },
+  "85f99768-668b-42e9-aef3-181f3b62e507": {
+    "start_time": "2025-03-18T08:45:04.526747",
+    "steps": {},
+    "current_progress": 100,
+    "total_steps": 0,
+    "status": "completed",
+    "timing": {
+      "start_time": "2025-03-18T08:45:04.526747",
+      "steps_timing": {},
+      "end_time": "2025-03-18T08:46:52.258917",
+      "total_duration_seconds": 107.73217
+    },
+    "end_time": "2025-03-18T08:46:52.258917"
+  },
+  "221e23f4-cd28-4e81-a144-e50f800969db": {
+    "start_time": "2025-03-18T08:49:32.818393",
+    "steps": {},
+    "current_progress": 0,
+    "total_steps": 0,
+    "status": "in_progress",
+    "timing": {
+      "start_time": "2025-03-18T08:49:32.818393",
+      "steps_timing": {}
+    }
+  },
+  "ff398443-9179-4721-879a-ceaa75db1b07": {
+    "start_time": "2025-03-18T08:57:49.918921",
+    "steps": {},
+    "current_progress": 100,
+    "total_steps": 0,
+    "status": "completed",
+    "timing": {
+      "start_time": "2025-03-18T08:57:49.918921",
+      "steps_timing": {},
+      "end_time": "2025-03-18T08:58:55.067219",
+      "total_duration_seconds": 65.148298
+    },
+    "end_time": "2025-03-18T08:58:55.067219"
+  },
+  "ac2a8837-0275-4327-a69d-f78d3f156ee6": {
+    "start_time": "2025-03-18T09:05:27.162074",
+    "steps": {},
+    "current_progress": 100,
+    "total_steps": 0,
+    "status": "completed",
+    "timing": {
+      "start_time": "2025-03-18T09:05:27.162074",
+      "steps_timing": {},
+      "end_time": "2025-03-18T09:06:42.297649",
+      "total_duration_seconds": 75.135575
+    },
+    "end_time": "2025-03-18T09:06:42.297649"
+  },
+  "8f374e9a-d5be-460d-b674-5654cbf0eafd": {
+    "start_time": "2025-03-18T09:09:51.369806",
+    "steps": {},
+    "current_progress": 100,
+    "total_steps": 0,
+    "status": "completed",
+    "timing": {
+      "start_time": "2025-03-18T09:09:51.369806",
+      "steps_timing": {},
+      "end_time": "2025-03-18T09:11:08.033146",
+      "total_duration_seconds": 76.66334
+    },
+    "end_time": "2025-03-18T09:11:08.033146"
+  }
+}
